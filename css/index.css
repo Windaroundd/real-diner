@@ -98,6 +98,11 @@ h6 {
   font-family: 'Quicksand', sans-serif;
 }
 
+a, a:hover {
+    text-decoration: none;
+}
+
+
 p {
     margin: 0;
     padding: 0;
@@ -401,6 +406,8 @@ header {
     color: var(--secondary-color);
     transition: 0.3s ease-in-out;
 }
+
+
 
 
 .agent-block-image-inf p {
