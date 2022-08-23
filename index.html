@@ -79,6 +79,30 @@
               <i class="fa fa-bars"></i>
             </button>
           </div>
+
+          <div id="header-overlay" class="overlay overlay-scale">
+            <button
+              id="header-overlay-close"
+              type="button"
+              class="overlay-close"
+            >
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+
+            <nav>
+              <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">404</a></li>
+                <li><a href="#">Landing Page</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Shot Codes</a></li>
+                <li><a href="#">Email</a></li>
+              </ul>
+            </nav>
+          </div>
         </nav>
       </div>
     </header>
@@ -338,5 +362,21 @@
         localStorage.setItem("theme", targetTheme);
       };
     </script>
+
+    <!-- start header overlay -->
+    <!-- trigger onclick -->
+    <script>
+      document.getElementById("trigger-overlay").onclick = function () {
+        document.getElementById("header-overlay").classList.toggle("open");
+      };
+    </script>
+
+    <!-- header-overlay-close onlick  -->
+    <script>
+      document.getElementById("header-overlay-close").onclick = function () {
+        document.getElementById("header-overlay").classList.remove("open");
+      };
+    </script>
+    <!-- end header overlay -->
   </body>
 </html>
