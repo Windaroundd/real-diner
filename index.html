@@ -40,6 +40,9 @@
       rel="stylesheet"
     />
 
+    <!-- responsive CSS -->
+    <link rel="stylesheet" href="./responsive.css">
+
     <!-- main CSS  -->
     <link rel="stylesheet" href="./css/index.css" />
   </head>
@@ -179,7 +182,85 @@
     <!-- end Best price  -->
 
     <!-- start Popular Categories  -->
-    <div class="PopularCategories"></div>
+    <div class="categories py-5">
+      <div class="container py-md-5 py-2">
+          <div class="title">
+              <p class="title-sub">What's new</p>
+              <h3 class="mb-lg-5">Popular Categories</h3>
+          </div>
+
+          <div class="categories__list">
+              <div class="row">
+                  <div class="categories__item col-lg-4 mt-4 mt-lg-0 col-6">
+                      <div class="categories__wrap">
+                          <a href="#">
+                              <img src="./img/g1.jpg" alt="">
+                          </a>
+                          <div class="categories__info p-md-5 p-4">
+                              <a class="mt-4 mb-0" href="#">Vegetarian</a>
+                              <h6 class="mt-1 mt-sm-2">$350</h6>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="categories__item col-lg-4 mt-4 mt-lg-0 col-6">
+                      <div class="categories__wrap">
+                          <a href="#">
+                              <img src="./img/g2.jpg" alt="">
+                          </a>
+                          <div class="categories__info p-md-5 p-4">
+                              <a href="#">Drinks</a>
+                              <h6 class="mt-1 mt-sm-2">$550</h6>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="categories__item col-lg-4 mt-4 mt-lg-0 col-6">
+                      <div class="categories__wrap">
+                          <a href="#">
+                              <img src="./img/g3.jpg" alt="">
+                          </a>
+                          <div class="categories__info p-md-5 p-4">
+                              <a href="#">Lunch</a>
+                              <h6 class="mt-1 mt-sm-2">$650</h6>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="categories__item col-lg-4 mt-4 pt-lg-2 col-6">
+                      <div class="categories__wrap">
+                          <a href="#">
+                              <img src="./img/g4.jpg" alt="">
+                          </a>
+                          <div class="categories__info p-md-5 p-4">
+                              <a href="#">Bakery</a>
+                              <h6 class="mt-1 mt-sm-2">$550</h6>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="categories__item col-lg-4 mt-4 pt-lg-2 col-6">
+                      <div class="categories__wrap">
+                          <a href="#">
+                              <img src="./img/g5.jpg" alt="">
+                          </a>
+                          <div class="categories__info p-md-5 p-4">
+                              <a href="#">Desserts</a>
+                              <h6 class="mt-1 mt-sm-2">$750</h6>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="categories__item col-lg-4 mt-4 pt-lg-2 col-6">
+                      <div class="categories__wrap">
+                          <a href="#">
+                              <img src="./img/g6.jpg" alt="">
+                          </a>
+                          <div class="categories__info p-md-5 p-4">
+                              <a href="#">Pizza</a>
+                              <h6 class="mt-1 mt-sm-2">$850</h6>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
     <!-- end Popular Categories -->
 
     <!-- start Home Services -->
@@ -304,11 +385,131 @@
     <!-- end Number -->
 
     <!-- start Video -->
-    <div class="Video"></div>
+    <div class="video">
+      <div class="video__container py-5">
+          <div class="container py-lg-5">
+              <div class="video__banner">
+                  <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center pl-3">
+                      <span class="video__play-icon">
+                        <span class="fa fa-play"></span>
+                      </span>
+                  </a>
+                  
+                  <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                      <iframe src="https://player.vimeo.com/video/305185528" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
     <!-- end Video -->
 
     <!-- start Blog post  -->
-    <div class="BlogPost"></div>
+    <div class="blog py-5">
+      <div class="container py-md-5 py-2">
+          <div class="title">
+              <p class="title-sub">Latest Post</p>
+              <h3>Blog Post</h3>
+          </div>
+          <div class="row">
+              <div class="card col-lg-4 col-md-6 mt-5">
+                  <div class="card__header">
+                      <a href="https://demo.w3layouts.com/demos_new/template_demo/01-02-2021/diner-liberty-demo_Free/668605264/web/blog-single.html">
+
+                          <img src="./img/banner1.jpg" class="card-img-top" alt="">
+                      </a>
+                      <div class="card__pos">
+                          <a href="#">Reciepe</a>
+                          <span>
+                              <i class="fa fa-clock mr-2"></i>10 Min Cook
+                          </span>
+                      </div>
+                  </div>
+                  <div class="card-body blog__detail">
+                    <h5 class="card-title blog__description">The Best Cookie Recipes To Bake This Weekend</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi
+                      vitae sit.</p>
+                  </div>
+                  <div class="card__footer mt-3">
+                      <div class="card__info">
+                          <a href="#">
+                              <img src="./img/team1.jpg" alt="">
+                              <span>Rashed Kabir</span>
+                          </a>
+                      </div>
+                      <a href="#" class="card__btn">
+                          Read More
+                          <i class="fa fa-angle-right"></i>
+                      </a>
+                  </div>
+              </div>
+              <div class="card col-lg-4 col-md-6 mt-5">
+                  <div class="card__header">
+                      <a href="https://demo.w3layouts.com/demos_new/template_demo/01-02-2021/diner-liberty-demo_Free/668605264/web/blog-single.html">
+
+                          <img src="./img/banner3.jpg" class="card-img-top" alt="">
+                      </a>
+                      <div class="card__pos">
+                          <a href="#">Soup</a>
+                          <span>
+                              <i class="fa fa-clock mr-2"></i>10 Min Cook
+                          </span>
+                      </div>
+                  </div>
+                  <div class="card-body blog__detail">
+                    <h5 class="card-title blog__description">The Best Cookie Recipes To Bake This Weekend</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi
+                      vitae sit.</p>
+                  </div>
+                  <div class="card__footer mt-3">
+                      <div class="card__info">
+                          <a href="#">
+                              <img src="./img/team2.jpg" alt="">
+                              <span>Rashed Kabir</span>
+                          </a>
+                      </div>
+                      <a href="#" class="card__btn">
+                          Read More
+                          <i class="fa fa-angle-right"></i>
+                      </a>
+                  </div>
+              </div>
+              <div class="card col-lg-4 col-md-6 mt-5">
+                  <div class="card__header">
+                      <a href="https://demo.w3layouts.com/demos_new/template_demo/01-02-2021/diner-liberty-demo_Free/668605264/web/blog-single.html">
+
+                          <img src="./img/banner1.jpg" class="card-img-top" alt="">
+                      </a>
+                      <div class="card__pos">
+                          <a href="#">Drinks</a>
+                          <span>
+                              <i class="fa fa-clock mr-2"></i>10 Min Cook
+                          </span>
+                      </div>
+                  </div>
+                  <div class="card-body blog__detail">
+                    <h5 class="card-title blog__description">The Best Cookie Recipes To Bake This Weekend</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi
+                      vitae sit.</p>
+                  </div>
+                  <div class="card__footer mt-3">
+                      <div class="card__info">
+                          <a href="#">
+                              <img src="./img/team3.jpg" alt="">
+                              <span>Jannatul Ferdous</span>
+                          </a>
+                      </div>
+                      <a href="#" class="card__btn">
+                          Read More
+                          <i class="fa fa-angle-right"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+    </div>
+
     <!-- end Blog post  -->
 
     <!-- start Testimonial -->
@@ -316,7 +517,93 @@
     <!-- end Testimonial -->
 
     <!-- start Footer -->
-    <div class="Footer"></div>
+    <footer>
+        <div class="footer__container py-5">
+            <div class="container py-lg-4">
+                <div class="row">
+                    <div class="footer__item col-lg-4 col-sm-7 pr-lg-5 col-md-6">
+                        <h2 class="footer__title mb-3">
+                            <a href="">Diner</a>
+                        </h2>
+                        <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+                            tempufddfel. Lorem ipsum dolor sit amet Semper at elit.
+                        </p>
+                        <div class="footer__social mt-4">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__item col-lg-2 col-6 col-md-6 mt-5 mt-md-0 mt-lg-0">
+                        <h2 class="footer__title">
+                            Usefull Links
+                        </h2>
+
+                        <a href="#" class="footer__link">About us</a>
+                        <a href="#" class="footer__link">Services</a>
+                        <a href="#" class="footer__link">Blog Posts</a>
+                        <a href="#" class="footer__link">Careers</a>
+                        <a href="#" class="footer__link">Contact us</a>
+                    </div>
+                    <div class="footer__item col-lg-2 col-6 col-md-6 mt-lg-0 mt-5">
+                        <h2 class="footer__title">
+                            More Info
+                        </h2>
+
+                        <a href="#" class="footer__link">History</a>
+                        <a href="#" class="footer__link">Vision & Value</a>
+                        <a href="#" class="footer__link">Awards</a>
+                        <a href="#" class="footer__link">Media</a>
+                        <a href="#" class="footer__link">Support</a>
+                    </div>
+                    <div class="footer__item col-lg-4 col-sm-7 col-md-6 mt-lg-0 mt-5">
+                        <h2 class="footer__title">Subscribe to our Newsletter </h2>
+                        <p>
+                            Enter your email and recieve the latest news, updates and special offers from us.
+                        </p>
+                        <div class="form-input mt-4">
+                            <input type="email" placeholder="Your Email Address">
+                            <button class="btn btn-style btn-primary mt-3">Subscibe Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <p>
+                            © 2021 Diner. All rights reserved. Design by 
+                            <span>W3Layouts</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul class="copy-right__list">
+                            <li>
+                                <a href="#">Careers</a>
+                            </li>
+                            <li class="mx-lg-5 mx-md-4 mx-3">
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- end Footer -->
 
     <!-- Optional JavaScript -->
@@ -377,6 +664,26 @@
         document.getElementById("header-overlay").classList.remove("open");
       };
     </script>
+
     <!-- end header overlay -->
+    <!-- Maific -->
+    <script src="./Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(".popup-with-zoom-anim").magnificPopup({
+            type: "inline",
+            fixedContentPos: false,
+            fixedBgPos: true,
+            overflowY: "auto",
+            closeBtnInside: true,
+            preloader: false,
+            midClick: true,
+            removalDelay: 300,
+            mainClass: "my-mfp-zoom-in"
+            });
+        });
+
+    </script>
   </body>
 </html>
