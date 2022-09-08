@@ -119,7 +119,7 @@ li {
   }
 
 .title-subhny {
-    font-size: 20px;
+    font-size: 20px; 
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 1px;
@@ -272,7 +272,7 @@ header {
 }
 
 .btn-white:hover {
-    background: #fff;
+    background: var(--bg-color);
     border: 2px solid #fff;
     color: var(--primary-color);
 }
@@ -600,7 +600,7 @@ header {
 /* start Categories */
 
 .categories {
-    background: #F7F7F7;
+    background: var(--bg-grey);
 }
 
 .categories__item img {
@@ -620,7 +620,7 @@ header {
 
 .categories__wrap::after {
     content: "";
-    bottom: 0;
+    bottom: 0; 
     left: 0;
     width: 100%;
     height: 40%;
@@ -762,7 +762,7 @@ header {
 
 .video__banner .video__play-icon {
     font-size: 26px;
-    background: var(--bg-color);
+    background: #fff;
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -876,7 +876,7 @@ a.play-icon.popup-with-zoom-anim img:hover {
 }
 /* animate in */
 .my-mfp-zoom-in.mfp-ready #small-dialog {
-    opacity: 1;
+    opacity: 1; 
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
@@ -1220,7 +1220,7 @@ button::-moz-focus-inner {
 /* start Blog*/
 
 .blog {
-    background: #f7f7f7;
+    background: var(--bg-grey);
 }
 
 .blog .card {
@@ -1381,7 +1381,7 @@ footer {
 }
 
 .footer__social a:hover {
-    color: var(--bg-color);
+    color: #fff;
     background: var(--primary-color);
 }
 
@@ -1389,7 +1389,7 @@ footer {
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 30px;
-    color: var(--bg-color);
+    color: #fff;
 }
 
 .footer__item .form-input {
@@ -1481,3 +1481,53 @@ footer {
 /* end Footer */
 
 
+/* responsive */
+
+/* Tablet */
+@media screen and (max-width: 900px) {
+    .video .video__banner {
+        min-height: 400px;
+    }
+
+    .footer__item .footer__link:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer__social {
+        text-align: center;
+    }
+
+    .copy-right p {
+        text-align: center;
+    }
+
+    .copy-right__list {
+        justify-content: center;
+        margin-top: 3px;
+    }
+}
+
+/* Moblile */
+
+@media screen and (max-width: 640px) {
+    .video .video__banner {
+        min-height: 320px;
+    }
+
+    .footer__item .footer__link:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer__social {
+        text-align: center;
+    }
+
+    footer .copy-right p {
+        text-align: center;
+    }
+
+    .copy-right__list {
+        justify-content: center;
+        margin-top: 3px;
+    }
+}
