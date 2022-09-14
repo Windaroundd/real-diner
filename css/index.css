@@ -101,7 +101,17 @@ h6 {
 a, a:hover {
     text-decoration: none;
 }
+body a,
+button,
+.btn {
+  cursor: pointer !important;
+}
 
+body a,
+button,
+.btn {
+  cursor: pointer !important;
+}
 
 
 
@@ -116,7 +126,14 @@ p {
 
 li {
     list-style-type: none;
-  }
+}
+
+.form-control:focus {
+    border-color: unset;
+    box-shadow:  none;
+    background: var(--bg-color);
+}
+
 
 .title-subhny {
     font-size: 20px; 
@@ -234,13 +251,13 @@ header {
     
 }
 
-.form-control {
+.search-bar .form-control {
     padding: 0.6rem  3.1rem 0.6rem 1.3rem;
     height: 2.8rem;
     color: var(--font-color);
     border-radius: var(--border-radius);
     background: var(--bg-color);
-    border: 0.1rem solid var(--bg-color);
+    border: 1px solid var(--bg-color);
 
 }
 
@@ -271,8 +288,8 @@ header {
     padding-left: 0;
 }
 
-.btn-white:hover {
-    background: var(--bg-color);
+.banner .btn-white:hover {
+    background: #fff;
     border: 2px solid #fff;
     color: var(--primary-color);
 }
