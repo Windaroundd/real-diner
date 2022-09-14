@@ -1597,6 +1597,7 @@ footer {
     transition: 0.3s ease-in;
     border-radius: var(--border-radius);
     border: 2px solid transparent;
+    margin-left: 0;
 }
 
 .copy-right {
@@ -1625,7 +1626,7 @@ footer {
 }
 
 .copy-right__list {
-    list-style: none;
+    list-style: none; 
     display: flex;
 }
 
@@ -1643,3 +1644,39 @@ footer {
 }
 
 /* end Footer */
+
+/* Start backToTop */
+
+.backToTop {
+    position: fixed;
+    bottom: 55px;
+    z-index: 10;
+    right: 20px;
+    background: var(--primary-color);
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    color: var(--white);
+    cursor: pointer;
+    text-decoration: none;
+    transition: .3s ease-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.cd-top--is-visible { 
+    visibility: visible;
+    opacity: 1;
+}
+
+.backToTop:hover {
+    color: var(--white);
+}
+
+.backToTop i {
+    font-size: 18px;
+}
+/* end backToTop */
