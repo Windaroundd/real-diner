@@ -800,6 +800,17 @@
       </div>
     </footer>
     <!-- end Footer -->
+    <!-- start backToTop -->
+    <button
+      onclick="topFunction()"
+      id="movetop"
+      title="Go to top"
+      style="display: block"
+    >
+      ⤴
+    </button>
+
+    <!-- end back to top -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -916,6 +927,30 @@
     <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.js"></script>
     <script>
       $(".counter").countUp();
+    </script>
+    <!-- back to top   -->
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
     </script>
   </body>
 </html>
