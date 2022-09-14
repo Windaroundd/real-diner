@@ -431,7 +431,7 @@
             <div class="number__item">
               <span class="fa fa-cutlery"></span>
               <div class="counter">15.100</div>
-              <p class="count-text">Food Items</p>
+              <p class="count-text">Branches</p>
             </div>
           </div>
           <div class="col-md-3">
@@ -445,14 +445,14 @@
             <div class="number__item">
               <span class="fa fa-cutlery"></span>
               <div class="counter">12.100</div>
-              <p class="count-text">Food Items</p>
+              <p class="count-text">Chefs</p>
             </div>
           </div>
           <div class="col-md-3">
             <div class="number__item">
               <span class="fa fa-cutlery"></span>
               <div class="counter">2.560</div>
-              <p class="count-text">Food Items</p>
+              <p class="count-text">Happy Customers</p>
             </div>
           </div>
         </div>
@@ -462,7 +462,7 @@
 
     <!-- start Video -->
     <div class="video">
-      <div class="video__container py-5">
+      <div class="video__container">
         <div class="container py-lg-5">
           <div class="video__banner">
             <a
@@ -489,7 +489,7 @@
     <!-- end Video -->
 
     <!-- start Blog post  -->
-    <div class="blog py-5">
+    <div class="blog">
       <div class="container py-md-5 py-2">
         <div class="title">
           <p class="title-sub">Latest Post</p>
@@ -881,30 +881,23 @@
     </script>
 
     <!-- swiper -->
-    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-    <script>
-      var mySwiper = new Swiper(".swiper-container", {
-        // Optional parameters
-        direction: "vertical",
-        loop: true,
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-        // If we need pagination
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
         pagination: {
           el: ".swiper-pagination",
-        },
-
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-          el: ".swiper-scrollbar",
+          clickable: true,
         },
       });
+    </script>
+    <!-- header-overlay-close onlick  -->
+    <script>
+      document.getElementById("header-overlay-close").onclick = function () {
+        document.getElementById("header-overlay").classList.remove("open");
+      };
     </script>
     <!-- counter up -->
     <script
