@@ -427,58 +427,6 @@ header {
 	transition: transform 0.4s, opacity 0.4s;
 }
 
-/* start header - banner responsive  */
-
-
-/* Desktops  */
-@media (max-width:1199.98px) {
-    .banner__contents h3 {
-        font-size:48px;
-        line-height:58px;
-    }
-
-}
-
-/* tablets */
-@media (max-width: 991.98px) { 
-    .banner__contents h3 {
-        font-size: 44px;
-        line-height: 53px;
-    }
-
-}
-
-/* portrait phones */
-    
-@media (max-width: 575.98px) { 
-
-
-    .banner__contents h3 {
-        font-size: 28px;
-        line-height: 38px
-    }
-
-    .search-bar {
-        display: none;
-    }
-
-    .btn-white {
-        padding: 10px 21px;
-    }
-
-    .banner {
-        min-height:450px;
-    }
-    .overlay ul li a {
-		font-size: 16px;
-	}
-	.overlay ul li {
-		line-height: 2.2em;
-	}
-    
- }
-
- /* end header banner resposive  */
 
 /* end banner */
 
@@ -588,38 +536,7 @@ header {
     font-size: 20px;
 }
 
-    /* start BestPrice responsive */
-@media all and (max-width:991.98px) {
-    .subscribe-cat {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      margin-top: 30px;
-      grid-gap: 20px 10px;
-    }
-  
-    .subscribe-cat .subscribe-cat-link {
-      font-size: 18px;
-    }
-    .agent-block-image {
-  
-        min-height: 200px;
-    }
-}
-
-@media (max-width: 575.98px) {
-    .title-subhny {
-        font-size: 16px;
-    }
-    .title-w3l, .title-w3l.two {
-        font-size: 30px !important;
-        line-height: 38px;
-    }
-    p {
-        font-size: 16px;
-        line-height: 26px;
-    }
-}
-    /* end BestPrice responsive */
+    
 
 /* end Best price */
 
