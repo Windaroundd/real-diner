@@ -1614,6 +1614,7 @@ footer {
     transition: 0.3s ease-in;
     border-radius: var(--border-radius);
     border: 2px solid transparent;
+    margin-left: 0;
 }
 
 .copy-right {
