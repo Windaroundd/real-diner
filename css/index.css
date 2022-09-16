@@ -450,7 +450,8 @@ header {
 /* start AboutUs */
 .aboutUs{
     background-color: white;
-    padding-: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 .container{
   
@@ -1379,7 +1380,6 @@ button::-moz-focus-inner {
 
 /* start Testimonial  */
 .testimonial {
-    background-color: white;
     
 }
 
