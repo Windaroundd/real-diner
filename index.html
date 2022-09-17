@@ -139,11 +139,13 @@
     <div class="aboutUs">
       <div class="container py-md-5">
         <div class="row content-1-grids">
-          <div class="col-md-5">
+          <div class="col-lg-5">
             <h2 class="title-subhny">About Us</h2>
-            <h3>We found our creative space that is open for you.</h3>
+            <h3 class="mb-4">
+              We found our creative space that is open for you.
+            </h3>
           </div>
-          <div class="col-md-7">
+          <div class="col-lg-7">
             <p>
               Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
               ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
@@ -424,34 +426,34 @@
     <!-- end Middle - intro -->
 
     <!-- start Number -->
-    <div class="number">
+    <div class="number py-lg-0 py-md-5 py-4">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 col-6 mt-md-0 mt-4">
             <div class="number__item">
-              <span class="fa fa-cutlery"></span>
-              <div class="counter">15.100</div>
+              <span class="fa fa-building"></span>
+              <div class="counter mt-3">15,100</div>
               <p class="count-text">Branches</p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-6 mt-md-0 mt-4">
             <div class="number__item">
               <span class="fa fa-cutlery"></span>
-              <div class="counter">19.256</div>
+              <div class="counter mt-3">19,256</div>
               <p class="count-text">Food Items</p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-6 mt-md-0 mt-4">
             <div class="number__item">
-              <span class="fa fa-cutlery"></span>
-              <div class="counter">12.100</div>
+              <span class="fa fa-users"></span>
+              <div class="counter mt-3">12,100</div>
               <p class="count-text">Chefs</p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-6 mt-md-0 mt-4">
             <div class="number__item">
-              <span class="fa fa-cutlery"></span>
-              <div class="counter">2.560</div>
+              <span class="fa fa-smile"></span>
+              <div class="counter mt-3">2,560</div>
               <p class="count-text">Happy Customers</p>
             </div>
           </div>
@@ -461,7 +463,7 @@
     <!-- end Number -->
 
     <!-- start Video -->
-    <div class="video">
+    <div class="video py-5">
       <div class="video__container">
         <div class="container py-lg-5">
           <div class="video__banner">
@@ -605,9 +607,9 @@
     <!-- end Blog post  -->
 
     <!-- start Testimonial -->
-    <div class="testimonial">
+    <div class="testimonial py-5">
       <div class="container">
-        <div class="testimonial__title text-center">
+        <div class="testimonial__title text-center mb-5">
           <h2>Testimonials</h2>
           <h3>What People Say</h3>
         </div>
@@ -632,7 +634,7 @@
                   tesque libero ut justo, ultrices in ligula.
                 </p>
                 <h2>Johnson william</h2>
-                <p style="margin-top: -1px">customer</p>
+                <p class="p-customer mb-3">Customer</p>
               </div>
             </div>
             <div class="swiper-slide">
@@ -654,7 +656,7 @@
                   tesque libero ut justo, ultrices in ligula.
                 </p>
                 <h2>Johnson william</h2>
-                <p style="margin-top: -1px">customer</p>
+                <p class="p-customer">Customer</p>
               </div>
             </div>
             <div class="swiper-slide">
@@ -676,7 +678,7 @@
                   tesque libero ut justo, ultrices in ligula.
                 </p>
                 <h2>Johnson william</h2>
-                <p style="margin-top: -1px">customer</p>
+                <p class="p-customer">Customer</p>
               </div>
             </div>
             <div class="swiper-slide">
@@ -698,7 +700,7 @@
                   tesque libero ut justo, ultrices in ligula.
                 </p>
                 <h2>Johnson william</h2>
-                <p style="margin-top: -1px">customer</p>
+                <p class="p-customer">Customer</p>
               </div>
             </div>
           </div>
@@ -904,12 +906,6 @@
         },
       });
     </script>
-    <!-- header-overlay-close onlick  -->
-    <script>
-      document.getElementById("header-overlay-close").onclick = function () {
-        document.getElementById("header-overlay").classList.remove("open");
-      };
-    </script>
     <!-- counter up -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
@@ -917,9 +913,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.js"></script>
+    <script src="./jquery.counterup-master/jquery.counterup.min.js"></script>
     <script>
-      $(".counter").countUp();
+      $(".counter").counterUp({
+        delay: 10,
+        time: 5000,
+      });
     </script>
     <!-- back to top   -->
     <script>

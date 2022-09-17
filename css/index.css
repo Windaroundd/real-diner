@@ -449,20 +449,17 @@ header {
 
 /* start AboutUs */
 .aboutUs{
-    background-color: white;
+    
     padding-top: 45px;
     padding-bottom: 45px;
 }
-.container{
-  
-    max-width: 1200px;
-}
+
 .aboutUs h2{
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 1px;
-    color: #ff6600;
+    color: var(--primary-color);
     display: block;
     font-family: 'Pacifico', cursive;
 }
@@ -470,14 +467,14 @@ header {
     font-size: 38px;
     line-height: 48px;
     font-weight: 600;
-    color: #000;
+    color: var(--heading-color);
 }
 .aboutUs p{
     margin: 0;
     padding: 0;
     font-size: 18px;
     line-height: 28px;
-    color:rgba(22, 28, 45, 0.7);
+    color:var(--font-color);
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -718,7 +715,7 @@ header {
     z-index: -1;
 }
 .middle h3{
-    margin-left: 220px;
+    margin: auto;
     font-size: 45px;
     line-height: 55px;
     font-weight: 600;
@@ -766,7 +763,7 @@ header {
     margin-left: -15px;
 }
 .number__item {
-    background-color: white;
+    background-color: var(--bg-color);
     box-shadow: rgb(1 1 1 / 5%) 1px 1px 5px 0px;
     padding: 40px 20px;
     border-radius: var(--border-radius);
@@ -775,10 +772,12 @@ header {
 }
 .number__item:hover{
     transform: translateY(-5px);
-    transition: 0.5s;
+    transition: 0.3s ease;
+    box-shadow: rgb(46 41 51 / 8%) 0px 2px 4px, rgb(71 63 79 / 16%) 0px 5px 10px;
 }
 .number__item span.fa {
-    background: var(--primary-color);
+   
+    background-color: var(--primary-color);
     font-size: 26px;
     border-radius: 50%;
     width: 68px;
@@ -786,11 +785,12 @@ header {
     line-height: 68px;
     color: #fff;
     text-align: center;
+
 }
 .counter{
     font-size: 2.6em;
     font-weight: 600;
-    color: black;
+    color: var(--heading-color);
 }
 p.count-text {
     text-transform: capitalize;
@@ -1388,9 +1388,8 @@ button::-moz-focus-inner {
     width: 600px;
     height: 300px;
 }
-.testimonial__title{
-    padding-top: 100px;
-}
+
+
 .testimonial__title h2{
     font-size: 20px;
     font-weight: 400;
@@ -1405,7 +1404,7 @@ button::-moz-focus-inner {
     font-size: 38px;
     line-height: 48px;
     font-weight: 600;
-    color: #000;
+    color: var(--heading-color);
 
 }
 
@@ -1422,7 +1421,7 @@ button::-moz-focus-inner {
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: var(--bg-color);
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -1447,7 +1446,7 @@ button::-moz-focus-inner {
   }
 
   .img {
-    margin-left: 300px;
+    margin: auto;
     width: 100px;
     height: 100px;
     border-radius: 100%;
@@ -1480,11 +1479,10 @@ button::-moz-focus-inner {
 
   
   .testimonial-text {
-    padding: 30px;
     text-align: center;
     margin: 20px 100px;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: var(--bg-color);
     max-width: 770px;
     margin-left: auto;
     margin-right: auto;
@@ -1513,6 +1511,38 @@ button::-moz-focus-inner {
     font-size: 18px;
     font-style: italic;
 }
+
+.testimonial-text .p-customer {
+    font-size: 18px;
+    font-style: normal;
+    margin-bottom: 0;
+    opacity: 0.8;
+    margin-top: 4px;
+}
+
+.swiper-pagination {
+    bottom: -10px !important;
+    /* z-index: -1 !important; */
+}
+
+.swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+    margin: 5px 8px !important;
+    display: inline-block;
+    background: #d8d8d8;   
+    opacity: 1 !important;
+    
+}
+
+
+.swiper-pagination-bullet:hover,
+.swiper-pagination-bullet-active {
+    background: var(--primary-color)  !important;
+    z-index: 10;
+    opacity: 1;
+}
+
 
 
 /* end Testimonial  */
@@ -1654,6 +1684,7 @@ footer {
 .copy-right__list {
     list-style: none; 
     display: flex;
+    text-align: right;
 }
 
 .copy-right__list li a {
