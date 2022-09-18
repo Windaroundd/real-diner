@@ -41,9 +41,6 @@
                 font-size: 44px;
                 line-height: 53px;
             }
-            .banner {
-                min-height: 600px;
-            }
         /* end banner  */
         /* start BestPrice  */
             .subscribe-cat {
@@ -91,10 +88,6 @@
         text-align: center;
     }
 
-    /* .copy-right__list {
-        justify-content: center;
-        margin-top: 3px;
-    } */
     .categories__info a {
         font-size: 18px;
         line-height: 28px;
@@ -111,9 +104,7 @@
    /* end Nguyen sections */
    /* start Duc sections  */
         /* start .aboutUs */
-            /* .aboutUs h2 {
-
-            } */
+            
         /* end .aboutUs */
         /* start middle */
             .middle h3 {
@@ -151,7 +142,6 @@
 
                 .banner {
                     min-height: 600px;
-                    margin-top: 60px;
                 }
                 .overlay ul li a {
 		            font-size: 16px;
@@ -258,6 +248,9 @@
             .number__item {
             text-align: center;
             padding: 30px 10px;
+            }
+            .counter {
+                font-size: 32px;
             }
     /* end number  */
     /* start .testimonial  */
