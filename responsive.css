@@ -16,7 +16,12 @@
 
 
    /* start Nguyen sections */
-
+            /* start blog */
+            .card__footer .card__info span , .card__footer .card__btn {
+                font-size: 17px;
+                line-height: initial;
+            }
+            /* end blog */
    /* end Nguyen sections */
 
 
