@@ -1,0 +1,280 @@
+/* Desktops */
+
+@media (max-width:1199.98px) {
+   /* start Phong sections */
+        /* start banner  */
+            .banner__contents h3 {
+                font-size:48px;
+                line-height:58px;
+            }
+        /* end banner  */
+            /* start .HomeServices  */
+            
+            /* end .HomeServices */
+
+   /* end Phong sections */
+
+
+   /* start Nguyen sections */
+            /* start blog */
+            .card__footer .card__info span , .card__footer .card__btn {
+                font-size: 17px;
+                line-height: initial;
+            }
+            /* end blog */
+   /* end Nguyen sections */
+
+
+   /* start Duc sections  */
+            /* start .aboutUs  */
+                .aboutUs h3 {
+                    font-size: 32px !important;
+                    line-height: 40px;
+                }
+
+            /* end .aboutUs */
+
+   /* end Duc sections */
+}
+
+/* Tablets */
+
+@media (max-width: 991.98px) {
+    /* start Phong sections */
+        /* start banner  */
+            .banner__contents h3 {
+                font-size: 44px;
+                line-height: 53px;
+            }
+        /* end banner  */
+        /* start BestPrice  */
+            .subscribe-cat {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                margin-top: 30px;
+                grid-gap: 20px 10px;
+            }
+            
+            .subscribe-cat .subscribe-cat-link {
+                font-size: 18px;
+            }
+            .agent-block-image {
+            
+                min-height: 200px;
+            }
+            .title-w3l {
+                font-size: 32px !important;
+                line-height: 40px;
+            }
+        /* end BestPrice  */
+        /* start .HomeServices  */
+        .box-wrap .info a {
+            font-size: 20px;
+        }
+        /* end .HomeServices */
+
+   /* end Phong sections */
+
+
+   /* start Nguyen sections */
+    .video .video__banner {
+        min-height: 400px;
+    }
+
+    .footer__item .footer__link:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer__social {
+        text-align: center;
+    }
+
+    .copy-right p {
+        text-align: center;
+    }
+
+    .categories__info a {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .categories h6 {
+        font-size: 16px;
+    }
+    .title h3 {
+        font-size: 32px !important;
+        line-height: 40px;
+    }
+    
+    
+   /* end Nguyen sections */
+   /* start Duc sections  */
+        /* start .aboutUs */
+            
+        /* end .aboutUs */
+        /* start middle */
+            .middle h3 {
+                font-size: 40px;
+                line-height: 50px;
+                max-width: 100%;
+            }
+        /* end middle  */
+        /* start number  */
+            .number {
+                margin-top: 0;
+            }
+        /* end number  */
+        
+            
+   
+   /* end Duc sections */
+   
+    
+}
+
+/* Mobile */
+
+@media (max-width: 575.98px) {
+     /* start Phong sections */
+            /* start banner  */
+                .banner__contents h3 {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+
+                .search-bar {
+                    display: none;
+                }
+
+                .banner {
+                    min-height: 600px;
+                }
+                .overlay ul li a {
+		            font-size: 16px;
+	            }
+	            .overlay ul li {
+		            line-height: 2.2em;
+	            }
+            /* end banner  */
+            /* start BestPrice  */
+                .title-subhny.two {
+                    font-size: 16px;
+                }
+                .title-w3l {
+                    font-size: 30px !important;
+                    line-height: 38px;
+                }
+                .agent-block-image-inf p {
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            /* end BestPrice  */
+            /* start .HomeServices */
+                .box-wrap  p {
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            /* end .HomeServices  */
+   /* end Phong sections */
+
+
+   /* start Nguyen sections */
+     .video .video__banner {
+        min-height: 320px;
+    }
+
+    .footer__item .footer__link:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer__social {
+        text-align: center;
+    }
+
+    footer .copy-right p {
+        text-align: center;
+    }
+
+    .copy-right__list {
+        justify-content: center;
+        margin-top: 3px;
+    }
+
+    .blog .title-sub {
+        font-size: 16px;
+    }
+    .blog .title h3 {
+        font-size: 30px !important;
+        line-height: 38px;
+    }
+    .blog .card-body p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .copy-right__list {
+        justify-content: left;
+    }
+    .title .title-sub {
+        font-size: 16px;
+    }
+    .title h3 {
+        font-size: 30px !important;
+        line-height: 38px;
+    }
+    
+   /* end Nguyen sections */
+
+
+   /* start Duc sections  */
+        /* start banner  */
+            .aboutUs h2 {
+                font-size: 16px;
+            }
+            .aboutUs h3 {
+                font-size: 30px !important;
+                line-height: 38px;
+            }
+            .aboutUs p {
+                font-size: 16px;
+                line-height: 26px;
+            }
+        /* end banner  */
+        /* start middle  */
+            .middle h3 {
+                font-size: 35px;
+                line-height: 40px;
+            }
+            .middle .btn-white {
+                padding: 12px 45px;
+            }
+
+
+        /* end middle  */
+        /* start number  */
+            .number__item {
+            text-align: center;
+            padding: 30px 10px;
+            }
+            .counter {
+                font-size: 32px;
+            }
+    /* end number  */
+    /* start .testimonial  */
+     .testimonial__title h2 {
+        font-size: 16px;
+    }
+    .testimonial__title h3 {
+        font-size: 30px !important;
+        line-height: 38px;
+    }
+    .testimonial-text p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .testimonial-text q {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    /* end .testimonial  */
+   /* end Duc sections */
+   
+}
